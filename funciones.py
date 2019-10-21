@@ -2,7 +2,7 @@
 #-*- coding:UTF-8 -*-
 
 
-# Obtener las colisiones verticalmente de una posicion
+# Obtener las colisiones vertical de una posicion
 def colisionesVertical(x,y,matriz):
 
     colisiones = 0
@@ -35,7 +35,7 @@ def diagonalInferiorIzquierda(x,y,matriz):
 
 
 
-# Calcular las colisiones diagonal inferior izquierda de una posicion
+# Calcular las colisiones diagonal inferior derecha de una posicion
 def diagonalInferiorDerecha(x,y,matriz):
     
     a = x
@@ -54,7 +54,7 @@ def diagonalInferiorDerecha(x,y,matriz):
 
 
 
-# Calcular las colisiones diagonal inferior izquierda de una posicion
+# Calcular las colisiones diagonal superior derecha de una posicion
 def diagonalSuperiorDerecha(x,y,matriz):
     
     a = x
@@ -73,7 +73,7 @@ def diagonalSuperiorDerecha(x,y,matriz):
 
 
 
-# Calcular las colisiones diagonal inferior izquierda de una posicion
+# Calcular las colisiones diagonal superior izquierda de una posicion
 def diagonalSuperiorIzquierda(x,y,matriz):
     
     a = x
@@ -92,7 +92,7 @@ def diagonalSuperiorIzquierda(x,y,matriz):
 
 
 
-# Obtener las colisiones digonalmente de una posicion
+# Obtener las colisiones digonal de una posicion
 def colisionesDiagonal(x,y,matriz):
     colisiones = 0
     colisiones += diagonalInferiorIzquierda(x,y,matriz)
@@ -114,7 +114,7 @@ def colisionesPosicion(x,y,matriz):
 
 
 
-# Calcular Colisiones Matriz
+# Calcular Colisiones total de la Matriz
 def colisiones(matriz):
     colisiones = 0
 
