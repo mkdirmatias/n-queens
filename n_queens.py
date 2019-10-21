@@ -48,30 +48,3 @@ while total > 0:
 f.imprimirMatriz(matriz)
 
 print total
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
