@@ -39,10 +39,10 @@ while total > 0:
                 matriz[x][matriz[x].index(1)] = ' '
                 matriz[x][y] = 1
 
-    # f.imprimirMatriz(matriz)
+    f.imprimirMatriz(matriz)
     total = f.colisiones(matriz)
     print total
-    # print ''
+    print ''
 
 
 f.imprimirMatriz(matriz)
