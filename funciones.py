@@ -1,5 +1,6 @@
 #!/usr/bin/python
 #-*- coding:UTF-8 -*-
+import random
 
 
 # Obtener las colisiones vertical de una posicion
@@ -123,6 +124,17 @@ def colisiones(matriz):
         colisiones += colisionesPosicion(x,matriz[x].index(1),matriz)
 
     return colisiones
+
+
+
+# Función para llenar una matriz de forma aleatoria
+def llenarMatriz(n):
+    matriz = [[' '] * n for i in range(n)]
+
+    for x in range(n):
+        matriz[x][random.randrange(0,n)] = 1
+
+    return matriz
 
 
 
